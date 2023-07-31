@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;1,100;1,400");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@500&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;1,100;1,400");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Playfair+Display&family=Raleway:wght@500&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;1,100;1,400");
+body{
+  background-color: #f4f1e9;
+  color: #0a9396;
+  font-family: 'raleway';
+  line-height: 32px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  text-align:center;
+}
+
+h1{
+  color:#ebd591;
+  font-family: 'playfair display';
+  font-size: 40px;
+  margin: 0 auto;
+  line-height: 3em;
+}
+
+img{
+  border-radius: 100px;
+  margin: 10px;
+}
+
+p{
+  color:#ffba08;
+  margin-bottom: 40px;
+}
+
+h2{
+  color:#94d2bd;
+  font-family: 'playfair display';
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background-color:#94d2bd;
+  color: #005f73;
+  font-family: 'raleway';
+  padding: 10px;
+  border-radius:20px;
+}
+
+button:hover{
+  background-color:#005f73;
+  color: #94d2bd;
+}
+
+ul{ list-style: none;
+  padding-left: 0px;}
+
+li{ display: inline-block;
+  padding: 0px 20px;
+}
+
+.card{
+  background-color: #005f73;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0);
+}
+i{font-size: 50px;}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
